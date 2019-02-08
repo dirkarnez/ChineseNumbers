@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChineseNumbers", "ChineseNumbers\ChineseNumbers.csproj", "{BFA85594-8382-4951-8AE0-C9ED65D61993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChineseNumbers.Tests", "ChineseNumbers.Tests\ChineseNumbers.Tests.csproj", "{228CBA6B-ACF2-4261-94EC-AC0F2A566057}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BFA85594-8382-4951-8AE0-C9ED65D61993} = {BFA85594-8382-4951-8AE0-C9ED65D61993}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA85594-8382-4951-8AE0-C9ED65D61993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA85594-8382-4951-8AE0-C9ED65D61993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA85594-8382-4951-8AE0-C9ED65D61993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA85594-8382-4951-8AE0-C9ED65D61993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228CBA6B-ACF2-4261-94EC-AC0F2A566057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228CBA6B-ACF2-4261-94EC-AC0F2A566057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228CBA6B-ACF2-4261-94EC-AC0F2A566057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228CBA6B-ACF2-4261-94EC-AC0F2A566057}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C9BCD46-CCA2-4DE4-8B27-1046D419B75E}
+	EndGlobalSection
+EndGlobal
